@@ -124,6 +124,7 @@ ToolBar 节点上的属性无效
 
 解决： 把所有用 android:xxx 设置无效的，都用 toolbar：xxx 设置即可生效。
 
+CoordinatorLayout、AppBarLayout、CollapsingToolbarLayout、Palette的使用以后有时间再做详细的介绍，具体使用方式和参数在代码里面都有注释。
 
 
 
