@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/toolbar"
+            android:checked="true"
+            android:icon="@mipmap/ic_back_black"
+            android:title="ToolBar" />
+        <item
+            android:id="@+id/palette"
+            android:icon="@mipmap/ic_back_black"
+            android:title="Palette" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@mipmap/ic_back_black"
+            android:title="设置" />
+    </group>
+
+    <item android:title="二级菜单">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_back_black"
+                android:title="收藏" />
+            <item
+                android:icon="@mipmap/ic_back_black"
+                android:title="相册" />
+            <item
+                android:icon="@mipmap/ic_back_black"
+                android:title="好友" />
+        </menu>
+    </item>
+</menu>

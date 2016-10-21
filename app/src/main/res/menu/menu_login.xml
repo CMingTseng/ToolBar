@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <!--    1、always：这个值会使菜单项一直显示在Action Bar上。-->
+    <!--　　2、ifRoom：如果有足够的空间，这个值会使菜单项显示在Action Bar上。-->
+    <!--　　3、never：这个值使菜单项永远都不出现在Action Bar上。-->
+    <!--　　4、withText：这个值使菜单项和它的图标，菜单文本一起显示。-->
+    <!--将webview条目的showAsAction前缀改为 android 无视报错,但属性是 never-->
+    <!--app:actionLayout="@layout/**"可以使用自定义 layout 可参考容易逛收藏-->
+    <!--android:orderInCategory="100" 设置 ifroom 的优先级-->
+
+    <item
+        android:id="@+id/webview"
+        android:icon="@mipmap/icon_blog"
+        android:orderInCategory="80"
+        android:title="web"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/weibo"
+        android:icon="@mipmap/icon_weibo"
+        android:orderInCategory="90"
+        android:title="weibo"
+        app:showAsAction="withText|ifRoom"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings1"
+        android:orderInCategory="100"
+        android:title="设置1"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:title="设置2"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="100"
+        android:title="设置3"
+        app:showAsAction="never"/>
+</menu>

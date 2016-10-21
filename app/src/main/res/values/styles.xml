@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--actionBar栏颜色 不能添加透明通道-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--editText线条、radioButton按钮颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--actionBar文字颜色-->
+        <!--<item name="android:textColorPrimary">#afaf00</item>-->
+        <!--主背景颜色-->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <!--虚拟按钮颜色需要api21-->
+        <!--<item name="android:navigationBarColor">@color/navigationBarColor</item>-->
+
+        <!--如果 parent 不是 NoActionBar 需要添加这两个属性-->
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!--actionBar文字颜色-->
+        <item name="android:textColorPrimary">#afaf00</item>
+    </style>
+
+
+    <style name="ToolbarTextAppearanceSubTitle">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="ToolbarTextAppearanceTitle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <color name="navigationBarColor">#33000000</color>
+</resources>
