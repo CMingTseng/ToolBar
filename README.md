@@ -1,5 +1,8 @@
 #ToolBar
 
+![image](https://github.com/diamondlin2016/ToolBar/blob/master/toolbar.gif)
+
+
 ##简介
 
 Android 3.0之后，Google引入了ActionBar，想统一安卓应用的导航栏样式。但由于ActionBar难以定制，很大程度上限制了开发人员，比如标题文字大小、间距等不易实现个性化，很多开发者放弃了ActionBar的使用，而是使用普通的ViewGroup来封装自己的App Bar，或者使用JakeWharton大神的ActionBarSherlock库。
